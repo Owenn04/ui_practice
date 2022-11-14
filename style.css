@@ -1,0 +1,140 @@
+body{
+    background-color: white;
+    margin: 0px;
+    
+}
+
+.main{
+    display: flex;
+    color: black;
+    font-family: 'Arial Black';
+    font-size: 70px;
+    margin-left: 27%;
+}
+
+
+
+.wysi{
+    width: 60vh;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-color: black;
+    border-width: 50px;
+    border-radius: 1ch;
+}
+
+.liam{
+    width: 30vh;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    border-color: black;
+    border-width: 50px;
+    border-radius: 1ch;
+    text-align: center;
+}
+
+
+
+.dropdown-content{
+    background-color: white;
+    position: top;
+    left: 0;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    text-indent: -9999px; 
+    
+}
+
+.dropdown-content:hover {
+    display: block;
+    box-shadow: inset 0 40px #54b3d6;
+    text-indent: 0px; 
+
+    
+}
+
+
+.sidenav{
+    height: 100%;
+    width: 25%;
+    position: fixed; /*stays on scroll*/
+    top: 0;
+    background-color: black;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    left: 0;
+    z-index: 1;
+    top: 0; /* Stay at the top */
+}
+
+.sidenav b {
+    padding: 6px 8px 6px 16px;
+    font-size: 25px;
+    color: white;
+    display: block;
+    font-family: 'Arial Black';
+    font-size: 70px;
+    text-align: left;
+    line-height: 120px;
+    margin: 1rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+
+.sidenav:hover{
+    background-color:white;
+}
+
+.sidenav b:hover{
+    box-shadow: inset 400px 0 0 0 #54b3d6;
+    color: black;
+}
+
+
+
+.footbar {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+    z-index: 1;
+    left: 0;
+}
+
+ul{
+    display:flex;
+    color: white;
+    font-family: 'Arial Black';
+    font-size: 70px;
+    justify-content: space-between;
+    padding-right: 50px;
+    
+}
+
+li{
+    display:flex;
+    color: white;
+}
+
+li > img{
+    width: auto;
+    height: 150px;
+    border-radius: 10px;
+    top: 20px;
+}
+
+
+
+
+
